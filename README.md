@@ -18,7 +18,7 @@
 
 ## Быстрый старт
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yuliagavrilova1111/oscar-awards-analysis/blob/main/oscar_analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/yuliagavrilova1111/oscar-awards-analysis/blob/main/oscars_analysis.ipynb)
 
 Нажмите на кнопку выше, чтобы открыть и запустить проект в Google Colab.
 
@@ -126,3 +126,4 @@ pip install -r requirements.txt
 # Запустите Jupyter Notebook
 
 jupyter notebook oscar_analysis.ipynb
+
