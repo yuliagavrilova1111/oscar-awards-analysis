@@ -1,0 +1,23 @@
+# Большие файлы данных
+*.csv
+*.xlsx
+*.pkl
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Кэш Python
+__pycache__/
+*.pyc
+
+# Кэш Jupyter
+.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+
+# Временные файлы
+*.tmp
+*.log
