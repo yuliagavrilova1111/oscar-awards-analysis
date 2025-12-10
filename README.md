@@ -124,7 +124,7 @@ cd oscar-awards-analysis
 pip install -r requirements.txt
 
 # Запустите Jupyter Notebook
-
 jupyter notebook oscar_analysis.ipynb
+
 
 
