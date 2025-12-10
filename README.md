@@ -1,6 +1,6 @@
 # Oscar Awards Analysis
 
-![Python](https://img.shields.io/badge/Python-3.9-blue)
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
 ![Colab](https://img.shields.io/badge/Google%20Colab-Notebook-yellow)
 
@@ -18,53 +18,18 @@
 
 ## Быстрый старт
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/yuliagavrilova1111/oscar-awards-analysis/blob/main/oscars_analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ВАШ-USERNAME/oscar-awards-analysis/blob/main/oscar_analysis.ipynb)
 
 Нажмите на кнопку выше, чтобы открыть и запустить проект в Google Colab.
 
-## Локальная установка
-
-### Способ 1: Использование Conda (рекомендуется)
-```bash
-# Создать окружение из environment.yml
-conda env create -f environment.yml
-
-# Активировать окружение
-conda activate oscar_new
-
-# Запустить Jupyter Notebook
-jupyter notebook oscars_analysis.ipynb
-```
-
-### Способ 2: Использование pip
-```bash
-# Установить зависимости
-pip install -r requirements.txt
-
-# Запустить Jupyter Notebook
-jupyter notebook oscars_analysis.ipynb
-```
-
-### Проверка установки
-```python
-import pandas as pd
-import seaborn as sns
-import imblearn
-print(f"Pandas: {pd.__version__}, Seaborn: {sns.__version__}")
-```
-
 ## Структура проекта
 
-```text
 oscar-awards-analysis/
-├── oscars_analysis.ipynb          # Полный анализ в Jupyter Notebook
-├── environment.yml                # Конфигурация окружения Conda
-├── requirements.txt               # Зависимости Python
-├── README.md                      # Эта документация
-├── .gitignore                     # Игнорируемые файлы
-└── data/                          # Исходные данные
-    └── the_oscar_award.csv        # Датсет с Kaggle (1927-2025)
-```
+├── oscar_analysis.ipynb # Полный анализ в Jupyter Notebook
+├── README.md # Эта документация
+├── requirements.txt # Зависимости Python
+└── data/ # Исходные данные
+└── the_oscar_award.csv # Датсет с Kaggle (1927-2025)
 
 ## Технологии и инструменты
 
@@ -133,13 +98,13 @@ oscar-awards-analysis/
 
 ### Результаты машинного обучения
 * Алгоритм: Random Forest с балансировкой классов (SMOTE)
-* Основная метрика: ROC-AUC = 0.61
+* Основная метрика: ROC-AUC = 0.62
 * Ключевые признаки для прогноза:
-  1. Взаимодействие фильма и категории (0.135)
-  2. Количество номинаций фильма в текущем году (0.130)
-  3. Конкурентность категории (0.124)
-  4. Время с последней номинации номинанта (0.122)
-  5. Количество предыдущих номинаций номинанта (0.112)
+  1. Взаимодействие фильма и категории (0.137)
+  2. Количество номинаций фильма в текущем году (0.131)
+  3. Конкурентность категории (0.127)
+  4. Время с последней номинации номинанта (0.115)
+  5. Количество предыдущих номинаций номинанта (0.105)
 
 ## Инструкция по запуску
 
@@ -149,19 +114,14 @@ oscar-awards-analysis/
 3. Для запуска всего анализа нажмите: Среда выполнения → Выполнить всё
 4. Для детального изучения запускайте ячейки по отдельности
 
-### Вариант 2: Локальный запуск (через Conda)
-Следуйте инструкциям в разделе "Локальная установка" выше.
-
-### Вариант 3: Быстрый запуск с pip
+### Вариант 2: Локальный запуск
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/yuliagavrilova1111/oscar-awards-analysis.git
+git clone https://github.com/ВАШ-USERNAME/oscar-awards-analysis.git
 cd oscar-awards-analysis
 
 # Установите зависимости
 pip install -r requirements.txt
 
 # Запустите Jupyter Notebook
-jupyter notebook oscars_analysis.ipynb
-```
-
+jupyter notebook oscar_analysis.ipynb

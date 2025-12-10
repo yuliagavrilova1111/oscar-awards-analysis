@@ -1,6 +1,5 @@
 # Большие файлы данных
 *.csv
-!data/the_oscar_award.csv
 *.xlsx
 *.pkl
 
@@ -21,5 +20,4 @@ __pycache__/
 
 # Временные файлы
 *.tmp
-
 *.log
