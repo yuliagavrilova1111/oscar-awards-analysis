@@ -117,7 +117,7 @@ oscar-awards-analysis/
 ### Вариант 2: Локальный запуск
 ```bash
 # Клонируйте репозиторий
-git clone https://github.com/ВАШ-USERNAME/oscar-awards-analysis.git
+git clone https://github.com/yuliagavrilova1111/oscar-awards-analysis.git
 cd oscar-awards-analysis
 
 # Установите зависимости
@@ -126,4 +126,5 @@ pip install -r requirements.txt
 # Запустите Jupyter Notebook
 
 jupyter notebook oscar_analysis.ipynb
+
 
