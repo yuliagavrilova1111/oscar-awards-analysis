@@ -50,7 +50,7 @@ jupyter notebook oscars_analysis.ipynb
 import pandas as pd
 import seaborn as sns
 import imblearn
-print(f"✅ Pandas: {pd.__version__}, Seaborn: {sns.__version__}")
+print(f"Pandas: {pd.__version__}, Seaborn: {sns.__version__}")
 ```
 
 ## Структура проекта
